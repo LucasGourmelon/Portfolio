@@ -1,0 +1,38 @@
+.skills_div {
+  position: relative; 
+  padding: 10px;
+  border: 1px solid var(--overlay-color);
+  background-color: var(--bg-color);
+  cursor: pointer;
+  overflow: visible; 
+  transition: background-color 0.3s ease;
+}
+
+.skills_div:hover {
+  background-color: var(--hover-color);
+}
+
+.skills_div .skills_div_name {
+  width: 150px;
+}
+
+.skills_div_description {
+  position: absolute;
+  top: 80%;
+  left: 0;
+  width: 500px;
+  background-color: var(--bg-color);
+  border: 1px solid var(--secondary-color);
+  padding: 10px;
+  z-index: 4;
+  opacity: 0;
+  visibility: hidden;
+  clip-path: inset(0 0 100% 0); 
+  transition: clip-path 0.5s ease, opacity 0.5s ease, visibility 0.5s;
+}
+
+.skills_div:hover .skills_div_description {
+  opacity: 1;
+  visibility: visible;
+  clip-path: inset(0 0 0 0); 
+}

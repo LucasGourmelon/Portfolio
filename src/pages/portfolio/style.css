@@ -1,0 +1,105 @@
+.po_item {
+    width: 100%;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2vh 0;
+}
+
+.po_text {
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.po_divider {
+    border: none;
+    border-top: 2px dotted var(--text-color);
+    margin: 10px auto; 
+    width: 30%;
+}
+
+.po_img_div {
+    border: 1px dotted var(--text-color);
+}
+
+.swiper-pagination-bullet {
+    background-color: var(--text-color-3) !important;
+}
+.swiper-button-next, .swiper-button-prev {
+    color: var(--text-color-3) !important;
+}
+
+.ReactModal__Overlay--after-open {
+    z-index: 99999999;
+}
+
+.swiper-slide {
+    overflow: scroll;
+}
+
+.po_img, .po_slider, .po_img_div {
+    width: 35vw;
+    aspect-ratio: 16/9;
+    object-fit: contain;
+}
+
+.po_item .github_link {
+    position: relative;
+    margin-bottom: 0;
+}
+
+.po_item .github_link p {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    transition: color 0.3s;
+    margin-right: 10px;
+}
+
+.po_item .github_link p::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #d8d8d8;
+}
+
+.po_item .github_link p::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #000;
+    transition: width 0.5s;
+}
+
+.po_item .github_link p:hover::after {
+    width: 100%;
+}
+
+.skills_buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.po_technos_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.po_techno svg {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+}
