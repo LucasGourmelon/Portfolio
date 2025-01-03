@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.7cd0c606.css",
+    "main.js": "/portfolio/static/js/main.ec9b997d.js",
+    "static/media/accueil_desktop.png": "/portfolio/static/media/accueil_desktop.6897bff65e11636007fc.png",
+    "static/media/apoc_accueil.png": "/portfolio/static/media/apoc_accueil.68b70de30e72983c9f1b.png",
+    "static/media/accueil_mobile.png": "/portfolio/static/media/accueil_mobile.fc5e866f6767b35ee4b0.png",
+    "static/media/apoc_logement_cli.png": "/portfolio/static/media/apoc_logement_cli.23bcaf1cc027ff4958dc.png",
+    "static/media/apoc_logements.png": "/portfolio/static/media/apoc_logements.73fdd7cee3b3a15eca84.png",
+    "static/media/apoc_recherche.png": "/portfolio/static/media/apoc_recherche.5fa3ab75a31d05204ceb.png",
+    "static/media/apoc_reservations.png": "/portfolio/static/media/apoc_reservations.a751579ac4c78859bbec.png",
+    "static/media/apoc_new_logement.png": "/portfolio/static/media/apoc_new_logement.0819743ec48c4b8d40a7.png",
+    "static/media/apoc_connexion.png": "/portfolio/static/media/apoc_connexion.2c2a1c1e51a37e88ecc7.png",
+    "static/media/ant.png": "/portfolio/static/media/ant.acc6c3f6c837c5f7f989.png",
+    "static/media/window.png": "/portfolio/static/media/window.c87d46328489932423cd.png",
+    "index.html": "/portfolio/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.7cd0c606.css",
+    "static/js/main.ec9b997d.js"
+  ]
+}
