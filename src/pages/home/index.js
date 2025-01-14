@@ -5,6 +5,7 @@ import Typewriter from "typewriter-effect";
 import { Container, Row, Col } from "react-bootstrap";
 import { introdata, texts, meta } from "../../content_option";
 import { Link } from "react-router-dom";
+import CV from "../../assets/cv.pdf";
 
 export const Home = () => {
   return (
@@ -34,6 +35,14 @@ export const Home = () => {
                         <div className="ring three"></div>
                       </div>
                   </Link>
+                  <a href={CV} target="_blank" rel="noreferrer">
+                    <div id="button_h" className="ac_btn btn">
+                      {texts.cv}
+                      <div className="ring one"></div>
+                      <div className="ring two"></div>
+                      <div className="ring three"></div>
+                    </div>
+                  </a>
                   <Link to="/contact">
                     <div id="button_p" className="ac_btn btn">
                       {texts.contactmenu}

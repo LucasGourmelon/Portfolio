@@ -4,7 +4,7 @@
     --secondary-color: #fff;
     --text-color: #fff;
     --text-color-2: #fff;
-    --text-color-3: rgb(71, 202, 73);
+    --text-color-3: rgb(0, 108, 255);
     --overlay-color: rgb(12 12 12 / 63%);
     --hover-color: #1a1a1a;
 }
@@ -15,7 +15,7 @@
     --secondary-color: #000;
     --text-color: #000;
     --text-color-2: #000;
-    --text-color-3: rgb(71, 202, 73);
+    --text-color-3: rgb(0, 108, 255);
     --overlay-color: rgb(255 255 255 / 70%);
     --hover-color: #f0f0f0;
 }

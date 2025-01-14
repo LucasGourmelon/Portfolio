@@ -65,7 +65,7 @@ export const Portfolio = () => {
                       <p>{data.description}</p>
                       <div className="competences">
                         <h4>{texts.competencesprojet}</h4>
-                        <div className="skills_buttons">
+                        <div className="skills_buttons ms-auto">
                           {Object.keys(data.competences).map((key, idx) => {
                             if (data.competences[key] && datacompetences[key]) {
                               const competence = datacompetences[key];
@@ -97,12 +97,13 @@ export const Portfolio = () => {
                     {data.link && (
                       <a
                         className="github_link"
-                        href={data.link}
+                        href={data.link.link}
                         target="_blank"
                         rel="noopener noreferrer"
                       >
                         <p>{texts.voirprojet}</p>
-                        <FaGithub />
+                        {/* si data.link.icon est null ou undefined, on affiche le logo github */}
+                        {data.link.icon ? React.createElement(data.link.icon) : <FaGithub />}
                       </a>
                     )}
                   </div>

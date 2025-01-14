@@ -1,3 +1,7 @@
+.container {
+    max-width: 1440px !important;
+}
+
 .po_item {
     width: 100%;
     display: inline-flex;
@@ -87,7 +91,7 @@
 .skills_buttons {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    max-width: 80%;
 }
 
 .po_technos_list {
