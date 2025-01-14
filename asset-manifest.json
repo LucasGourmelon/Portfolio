@@ -1,13 +1,15 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.e93ce9ba.css",
-    "main.js": "/portfolio/static/js/main.009ba6fc.js",
+    "main.js": "/portfolio/static/js/main.7cb6628e.js",
     "static/media/accueil_desktop.png": "/portfolio/static/media/accueil_desktop.6897bff65e11636007fc.png",
     "static/media/apoc_accueil.png": "/portfolio/static/media/apoc_accueil.68b70de30e72983c9f1b.png",
     "static/media/accueil_mobile.png": "/portfolio/static/media/accueil_mobile.fc5e866f6767b35ee4b0.png",
     "static/media/apoc_logement_cli.png": "/portfolio/static/media/apoc_logement_cli.23bcaf1cc027ff4958dc.png",
     "static/media/image_hover.png": "/portfolio/static/media/image_hover.2b5b6991ac06e767ef60.png",
+    "static/media/facture.png": "/portfolio/static/media/facture.f66ceef35b9547eeff72.png",
     "static/media/apoc_logements.png": "/portfolio/static/media/apoc_logements.73fdd7cee3b3a15eca84.png",
+    "static/media/resa.png": "/portfolio/static/media/resa.d53c7a888e47e91f2766.png",
     "static/media/accueil.png": "/portfolio/static/media/accueil.965e49c5816881c8b20e.png",
     "static/media/cv.pdf": "/portfolio/static/media/cv.65e8bccde9366f9a521b.pdf",
     "static/media/apoc_recherche.png": "/portfolio/static/media/apoc_recherche.5fa3ab75a31d05204ceb.png",
@@ -21,6 +23,6 @@
   },
   "entrypoints": [
     "static/css/main.e93ce9ba.css",
-    "static/js/main.009ba6fc.js"
+    "static/js/main.7cb6628e.js"
   ]
 }
