@@ -1,5 +1,5 @@
 import { Home } from "./pages/home";
-import { FaPhp, FaJs, FaFigma, FaDatabase, FaServer, FaGit, FaSymfony, FaPython, FaArchive, FaHtml5, FaCss3, FaFileCsv, FaFileCode } from "react-icons/fa";
+import { FaPhp, FaJs, FaFigma, FaDatabase, FaServer, FaGit, FaSymfony, FaPython, FaArchive, FaHtml5, FaCss3, FaJava, FaFileCode, FaVideo } from "react-icons/fa";
 
 const logotext = "Lucas Gourmelon";
 const meta = {
@@ -191,12 +191,12 @@ const dataportfolio = [
                     "Fonctionnement en méthode agile et réunions de recueil des besoins récurents avec les clients et futurs utilisateurs.",
         link: "",
         competences: {
-            competence1: "Conception, développement et test de fonctionnalités demandés par les clients (EDF). Correction de bugs. Modification de l'UX/UI de la section \"Annuaire\" (contacts, organigramme, annuaires personnalisés, etc) du site pour améliorer l'ergonomie.", 
+            competence1: "Conception, développement et test de fonctionnalités demandés par les clients (EDF) en PHP Symfony. Correction de bugs. Modification de l'UX/UI de la section \"Annuaire\" (contacts, organigramme, annuaires personnalisés, etc) du site pour améliorer l'ergonomie.", 
             competence2: "Utilisation de la distance de Levenshtein pour améliorer la fonctionnalité de recherche globale de l'application. Développements ayant pour but de réduire le temps de chargement des pages (gestion de cache, gestion du poid des images, réduction du nombre de requêtes, etc.)", 
             competence3: "Utilisation d'un serveur Apache pour déployer et gérer des projets sur les environnements de développement, de recette et de production.",
-            competence4: "Ajout et mise à jour de tables de la base de données dans le cadre du développement",
-            competence5: "Participation aux réunions agiles avec l'équipe de développement et le client pour définir les priorités et les tâches à réaliser", 
-            competence6: "Communication avec les autres membres de l'équipe et avec le client pour comprendre les besoins et les contraintes du projet", 
+            competence4: "Ajout et mise à jour de tables de la base de données dans le cadre du développement.",
+            competence5: "Participation aux réunions agiles avec l'équipe de développement et le client pour définir les priorités et les tâches à réaliser.", 
+            competence6: "Communication avec les autres membres de l'équipe et avec le client pour comprendre les besoins et les contraintes du projet.", 
         },
         technos: {
             "PHP Symfony": FaSymfony,
@@ -207,24 +207,7 @@ const dataportfolio = [
         }
     },
     {
-        title: "Ant-gorithm",
-        images: [
-            require("./assets/images/ant-gorithm/ant.png"),
-            require("./assets/images/ant-gorithm/window.png"),
-        ],
-        description: "Simulation où des fourmis évoluent pour survivre en fonction de plusieurs paramètres grâce à un algorithme génétique.",
-        link: {link: "https://github.com/LucasGourmelon/AlgoGenetique"},
-        competences: {
-            competence1: "Développement d'une application Tkinter mettant en scène une fourmi dans un environnement où elle doit chercher de la nourriture.",
-            competence2: "Mise en place d'un algorithme génétique ayant pour but de faire survivre la fourmi le plus longtemps possible.", 
-            competence3: false, competence4: false, competence5: false, competence6: false},
-        technos: {
-            "Python": FaPython,
-            "Tkinter": FaArchive,
-        }
-    },
-    {
-        title: "Maquette d'un site vitrine pour un client réel",
+        title: "Bella Italia",
         images: [
             require("./assets/images/bella-italia/accueil_desktop.png"),
             require("./assets/images/bella-italia/accueil_mobile.png"),
@@ -235,12 +218,47 @@ const dataportfolio = [
             icon: FaFigma
         },
         competences: {
-            competence1: "Création de maquettes sur Figma pour proposer des interfaces claires et adaptées aux besoins du projet.",
-            competence5: "Participation à des réunions avec les membres de l'entreprise pour comprendre leurs besoins et attentes.",
-            competence6: "Travail en équipe de trois pour réaliser le projet, avec une répartition des tâches et une bonne communication.",
+            competence1: "Création de maquettes sur Figma pour proposer des interfaces claires et adaptées aux besoins du projet. Montée en compétence sur l'outil.",
+            competence5: "Participation à des réunions avec les membres de l'entreprise pour comprendre leurs besoins et attentes. Proposition et modification de la maquette en fonction des retours obtenus.",
+            competence6: "Travail en équipe de trois pour réaliser le projet, répartition des tâches et communication pour transmettre les retours du client et les modifications à apporter.",
         },                    
         technos: {
             "Figma": FaFigma,
+        }
+    },
+    {
+        title: "Ant-gorithm",
+        images: [
+            require("./assets/images/ant-gorithm/ant.png"),
+            require("./assets/images/ant-gorithm/window.png"),
+        ],
+        description: "Simulation où des fourmis évoluent pour survivre en fonction de plusieurs paramètres grâce à un algorithme génétique. Peu de compétences en Python et Tkinter au début du développement, ce projet m'a permis de monter en compétence et en aisance avec Python.",
+        link: {link: "https://github.com/LucasGourmelon/AlgoGenetique"},
+        competences: {
+            competence1: "Développement d'une application Tkinter mettant en scène une fourmi dans un environnement où elle doit chercher de la nourriture.",
+            competence2: "Mise en place d'un algorithme génétique ayant pour but de faire survivre la fourmi le plus longtemps possible.", 
+        },
+        technos: {
+            "Python": FaPython,
+            "Tkinter": FaArchive,
+        }
+    },
+    {
+        title: "Cheval Blanc",
+        images: [
+            require("./assets/images/cheval-blanc/resa.png"),
+            require("./assets/images/cheval-blanc/facture.png"),
+        ],
+        description: "Logiciel JavaFx pour un client ficitf (Hotêl Le Cheval Blanc) permettant de gérer les réservations et les factures des clients.",
+        link: {link: "https://www.youtube.com/watch?v=HE64krXmLQ4", icon: FaVideo},
+        competences: {
+            competence1: "Développement en JavaFx pour réaliser une interface graphique permettant de gérer les réservations et les factures des clients.",
+            competence5: "Rédaction d'un document de Spécification des Exigences Logicielles (SEL) pour définir les besoins du client et les fonctionnalités du logiciel. Création d'un diagramme de Gantt pour prévoir le temps de développement et les jalons. Utilisation du cycle en cascade pour la réalisation du projet.",
+            competence6: "Travail en équipe de 3 personnes pour réaliser le projet. Répartition des tâches en fonction des compétences.",
+        },                    
+        technos: {
+            "Java": FaJava,
+            "JavaFx": FaArchive,
         }
     },
 ];
